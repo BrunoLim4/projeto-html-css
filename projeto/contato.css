@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(67, 67, 197);
+}
+#contato {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contato h2 {
+  margin-top: 0;
+}
+
+#contato-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#contato-lista li {
+  margin-bottom: 10px;
+}
+
+#contato-lista i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+#contato-lista a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+#contato-lista a:hover {
+  color: #23527c;
+}
+
+#form-contato {
+  margin-top: 20px;
+}
+
+#form-contato label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#form-contato input, #form-contato textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+#form-contato input[type="submit"] {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#form-contato input[type="submit"]:hover {
+  background-color: #23527c;
+}
+
+address {
+  font-style: normal;
+  margin-top: 20px;
+}
+
+#horario-atendimento {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+#observacoes {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
